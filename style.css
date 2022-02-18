@@ -120,6 +120,14 @@ p.card-text {
 	color: white;
 }
 
+.trump {
+	display: flex;
+	background-image: linear-gradient(to left, rgba(255, 17, 0, 0.705), rgba(241, 7, 7, 0)),url(https://i.redd.it/zwx97e6evsr31.png);
+	background-size: cover;
+	height: 100vh;
+	color: white;
+}
+
 #leftnav {
 	font-size: 40px;
 }
