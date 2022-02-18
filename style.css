@@ -218,3 +218,7 @@ p span#thetitle {
                 background-position: 0% 200%;
             }
         }
+
+        #leftnav a {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
