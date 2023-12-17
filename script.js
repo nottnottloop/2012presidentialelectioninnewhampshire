@@ -37,7 +37,7 @@
 // 	</span>
 // 	<span id="rightnav">
 // 	<p style="display: inline;" id="thetitle">The 2012 Presidential Election in New Hampshire</p>
-// 	<img style="display:inline;" src="newhampshire.png" height="50px">
+// 	<img style="display:inline;" src="new_hampshire.png" height="50px">
 // 	</span>
 // </nav>
 // `;
@@ -54,7 +54,7 @@
 //	</span>
 //	<span id="rightnav">
 //	<p style="display: inline;" class="wackytext">The 2012 Presidential Election in New Hampshire</p>
-//	<img style="display:inline;" src="newhampshire.png" height="50px">
+//	<img style="display:inline;" src="new_hampshire.png" height="50px">
 //	</span>
 //</nav>
 //`;
