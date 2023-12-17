@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>2012 Presidential Election in New Hampshire</title>
-		<link href="icon.png" rel="icon">
+    <link href="icon.png" rel="icon" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-		<nav id="nav"></nav>
-		<article style="padding-left: 40px; padding-top: 40px">
-		<h1>The 2012 Presidential Election in New Hampshire</h1>
-		<section id="basicsimages">
-			<img src="./obama.webp" alt="Obama" height="200">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/New_hampshire_presidential_election_results_2012.svg/181px-New_hampshire_presidential_election_results_2012.svg.png" alt="Results in 2012"><br>
-			<img src="https://pyxis.nymag.com/v1/imgs/fea/a6a/07d84db0fe0d3e3b0b8de92518ae9784d3-23-mitt-rommney-thumbs-up.rsquare.w700.jpg" alt="Romney" height="300px">
-		</section>
-		<h2>Primaries</h2>
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/New_Hampshire_Republican_Presidential_Primary_Election_Results_by_County%2C_2012.svg/125px-New_Hampshire_Republican_Presidential_Primary_Election_Results_by_County%2C_2012.svg.png" alt="Results in 2012">
-			<p>Mitt Romney managed to bag all counties except the Northernmost county of Coös, which went to <a href="https://en.wikipedia.org/wiki/Ron_Paul">Ron Paul</a>.</p>
-			<p>Mitt Romney went on to become the first ever Mormon candidate for a major political party in the US!</p>
-		<h2>Results</h2>
-			<p>In 2012 <strong>Barack Obama</strong> won 7 of the 10 counties in New Hampshire, winning the local state election and the electors for New Hampshire!</p>
-			<p>Mitt Romney bagged Belknap, Carrol and Rockingham taking these three states from Obama.</p>
-			<p>What a Showing!!!</p>
-		</article>
-		<audio loop id="americandad"></audio>
-		<footer id="footer"></footer>
-    <script src="script.js"></script>
+    <nav class="navbar navbar-expand px-4 navbarbg coolfont">
+      <span id="leftnav">
+        <a id="logo" href="./index.html"><img src="icon.png" width="50px" /></a>
+        <a style="color: red" href="./index.html">Basics</a>
+        <a style="color: blue" href="./funfacts.html">Fun Facts</a>
+        <a style="color: red" href="./endorsements.html">Endorsements</a>
+        <a style="color: blue" href="./end_result.html">Results</a>
+      </span>
+      <span id="rightnav">
+        <p style="display: inline" class="wackytext">
+          The 2012 Presidential Election in New Hampshire
+        </p>
+        <img style="display: inline" src="newhampshire.png" height="50px" />
+      </span>
+    </nav>
+    <article style="padding-left: 40px; padding-top: 40px">
+      <h1>The 2012 Presidential Election in New Hampshire</h1>
+      <section id="basicsimages">
+        <img src="./obama.webp" alt="Obama" height="200" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/New_hampshire_presidential_election_results_2012.svg/181px-New_hampshire_presidential_election_results_2012.svg.png"
+          alt="Results in 2012"
+        /><br />
+        <img
+          src="https://pyxis.nymag.com/v1/imgs/fea/a6a/07d84db0fe0d3e3b0b8de92518ae9784d3-23-mitt-rommney-thumbs-up.rsquare.w700.jpg"
+          alt="Romney"
+          height="300px"
+        />
+      </section>
+      <h2>Primaries</h2>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/New_Hampshire_Republican_Presidential_Primary_Election_Results_by_County%2C_2012.svg/125px-New_Hampshire_Republican_Presidential_Primary_Election_Results_by_County%2C_2012.svg.png"
+        alt="Results in 2012"
+      />
+      <p>
+        Mitt Romney managed to bag all counties except the Northernmost county
+        of Coös, which went to
+        <a href="https://en.wikipedia.org/wiki/Ron_Paul">Ron Paul</a>.
+      </p>
+      <p>
+        Mitt Romney went on to become the first ever Mormon candidate for a
+        major political party in the US!
+      </p>
+      <h2>Results</h2>
+      <p>
+        In 2012 <strong>Barack Obama</strong> won 7 of the 10 counties in New
+        Hampshire, winning the local state election and the electors for New
+        Hampshire!
+      </p>
+      <p>
+        Mitt Romney bagged Belknap, Carrol and Rockingham taking these three
+        states from Obama.
+      </p>
+      <p>What a Showing!!!</p>
+    </article>
+    <footer id="footer"></footer>
+    <audio autoplay loop id="americandad" src="./music.mp3"></audio>
   </body>
 </html>
